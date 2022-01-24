@@ -1,0 +1,38 @@
+##gff-version 3
+##sequence-region L40990 1 9815
+# conversion-by bp_genbank2gff3.pl
+# organism Simian immunodeficiency virus
+# Note Simian immunodeficiency virus (clone 2) gag, pol, vif, vpr, tat, rev, envelope (env) and nef genes, complete cds
+# date 23-MAR-1995
+SIVREV	GenBank	region	1	9815	.	+	1	ID=L40990;Name=L40990;Dbxref=taxon:11723;Name=L40990;Note=Simian immunodeficiency virus (clone 2) gag%2C pol%2C vif%2C vpr%2C tat%2C rev%2C envelope (env) and nef genes%2C complete cds,Simian immunodeficiency viruses from African green monkeys are usualy relatively nonpathogenic. SIVagm9063 is derived from  SIVagm90 after passage in a pig-tailed macaque (individual PT63)  which was sacraficed due to oportunisitic infection with M. Avium  12 months after infection. SIVagm9063 was cultured on a human CD4+  cell line (CEMss),prior to inoculation of Rhesus macaques (n%3D2),African green monkeys (n%3D2),and pig-tailed macaques (n%3D16). ;date=23-MAR-1995;isolate=Agm9063;mol_type=genomic DNA;organism=Simian immunodeficiency virus;proviral=Simian immunodeficiency virus
+SIVREV	GenBank	LTR	1	723	.	+	1	ID=GenBank:LTR:SIVREV:1:9815;Name=GenBank:LTR:SIVREV:1:9815;
+SIVREV	GenBank	LTR	9093	9815	.	+	1	ID=GenBank:LTR:SIVREV:1:9815;Name=GenBank:LTR:SIVREV:1:9815;
+SIVREV	GenBank	gene	942	2501	.	+	1	ID=gag;Name=gag;Name=gag
+SIVREV	GenBank	mRNA	942	2501	.	+	1	ID=gag.t01;Name=gag.t01;Parent=gag
+SIVREV	GenBank	CDS	942	2501	.	+	0	ID=gag.p01;Name=gag.p01;Parent=gag.t01;Dbxref=GI:727180;Name=gag;codon_start=1;protein_id=AAA64257.1;transl_table=1;translation=length.519
+SIVREV	GenBank	exon	942	2501	.	+	1	Parent=gag.t01
+SIVREV	GenBank	gene	2216	5365	.	+	1	ID=pol;Name=pol;Name=pol
+SIVREV	GenBank	mRNA	2216	5365	.	+	1	ID=pol.t01;Name=pol.t01;Parent=pol
+SIVREV	GenBank	CDS	2216	5365	.	+	0	ID=pol.p01;Name=pol.p01;Parent=pol.t01;Dbxref=GI:727181;Name=pol;codon_start=1;protein_id=AAA64258.1;transl_table=1;translation=length.1049
+SIVREV	GenBank	exon	2216	5365	.	+	1	Parent=pol.t01
+SIVREV	GenBank	gene	5268	5963	.	+	1	ID=vif;Name=vif;Name=vif
+SIVREV	GenBank	mRNA	5268	5963	.	+	1	ID=vif.t01;Name=vif.t01;Parent=vif
+SIVREV	GenBank	CDS	5268	5963	.	+	0	ID=vif.p01;Name=vif.p01;Parent=vif.t01;Dbxref=GI:727182;Name=vif;codon_start=1;protein_id=AAA64259.1;transl_table=1;translation=length.231
+SIVREV	GenBank	exon	5268	5963	.	+	1	Parent=vif.t01
+SIVREV	GenBank	gene	5746	6105	.	+	1	ID=vpr;Name=vpr;Name=vpr
+SIVREV	GenBank	mRNA	5746	6105	.	+	1	ID=vpr.t01;Name=vpr.t01;Parent=vpr
+SIVREV	GenBank	CDS	5746	6105	.	+	0	ID=vpr.p01;Name=vpr.p01;Parent=vpr.t01;Dbxref=GI:727183;Name=vpr;codon_start=1;protein_id=AAA64260.1;transl_table=1;translation=length.119
+SIVREV	GenBank	exon	5746	6105	.	+	1	Parent=vpr.t01
+SIVREV	GenBank	gene	6056	6273	.	+	1	ID=tat;Name=tat;Name=tat
+SIVREV	GenBank	gene	8515	8656	.	+	1	ID=tat;Name=tat;Name=tat
+SIVREV	GenBank	mRNA	6056	8656	.	+	1	ID=tat.t01;Name=tat.t01;Parent=tat
+SIVREV	GenBank	CDS	6056	6273	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:727184;Name=tat;codon_start=1;protein_id=AAA64261.1;transl_table=1;translation=length.119
+SIVREV	GenBank	CDS	8515	8656	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:727184;Name=tat;codon_start=1;protein_id=AAA64261.1;transl_table=1;translation=length.119
+SIVREV	GenBank	exon	6056	6273	.	+	1	Parent=tat.t01;Name=tat
+SIVREV	GenBank	gene	6213	6273	.	+	1	ID=rev.gene;Name=rev.gene;Alias=rev;Name=rev
+SIVREV	GenBank	gene	8515	8723	.	+	1	ID=rev.gene;Name=rev.gene;Alias=rev;Name=rev
+SIVREV	GenBank	mRNA	6213	8723	.	+	1	ID=rev.t01;Name=rev.t01;Parent=rev
+SIVREV	GenBank	CDS	6213	6273	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:727185;Name=rev;codon_start=1;protein_id=AAA64262.1;transl_table=1;translation=length.89
+SIVREV	GenBank	CDS	8515	8723	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:727185;Name=rev;codon_start=1;protein_id=AAA64262.1;transl_table=1;translation=length.89
+SIVREV	GenBank	exon	6213	6273	.	+	1	Parent=rev.t01;Name=rev
+SIVREV	GenBank	exon	8515	8723	.	+	1	Parent=rev.t01;Name=rev

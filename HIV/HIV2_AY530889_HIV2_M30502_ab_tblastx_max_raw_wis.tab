@@ -1,0 +1,4 @@
+"seqnames"	"start"	"end"	"strand"	"Hsp_num"	"Hsp_bit.score"	"Hsp_score"	"Hsp_evalue"	"Hsp_query.from"	"Hsp_query.to"	"Hsp_hit.from.1"	"Hsp_query.frame"	"Hsp_hit.frame"	"Hsp_identity"	"Hsp_positive"	"Hsp_gaps"	"Hsp_align.len"	"seq_len"	"query_len"	"query_id"	"raw_score"	"ID"	"filter_pass"	"query_ranges.seqnames"	"query_ranges.start"	"query_ranges.end"	"query_ranges.width"	"query_ranges.strand"	"score"	"query_len.1"
+"27"	"AY530889|AY530889"	9364	9606	"-"	27	90.9512	244	9.89846e-20	9915	10157	9606	-2	-2	52	59	NA	81	9607	10359	"M30502|HIV2BEN"	244	30	TRUE	"M30502|HIV2BEN"	9915	10157	243	"*"	244	10359
+"2"	"AY530889|AY530889"	4988	9130	"+"	2	1562.38	4424	0	5510	9649	4988	2	2	863	1018	31	1396	9607	10359	"M30502|HIV2BEN"	4424	18	TRUE	"M30502|HIV2BEN"	5510	9649	4140	"*"	4424	10359
+"3"	"AY530889|AY530889"	28	4911	"+"	3	1059	2994	0	552	5432	28	3	1	743	973	41	1648	9607	10359	"M30502|HIV2BEN"	2994	14	TRUE	"M30502|HIV2BEN"	552	5432	4881	"*"	2994	10359

@@ -1,0 +1,5 @@
+"seqnames"	"start"	"end"	"strand"	"Hsp_num"	"Hsp_bit.score"	"Hsp_score"	"Hsp_evalue"	"Hsp_query.from"	"Hsp_query.to"	"Hsp_hit.from.1"	"Hsp_query.frame"	"Hsp_hit.frame"	"Hsp_identity"	"Hsp_positive"	"Hsp_gaps"	"Hsp_align.len"	"seq_len"	"query_len"	"query_id"	"raw_score"	"ID"	"filter_pass"	"query_ranges.seqnames"	"query_ranges.start"	"query_ranges.end"	"query_ranges.width"	"query_ranges.strand"	"score"	"query_len.1"
+"18"	"KC503852|KC503852"	8737	9573	"-"	18	104.68	283	6.8381e-24	9010	9855	9573	-1	-1	100	139	25	293	9804	9927	"JQ866001|JQ866001"	283	25	TRUE	"JQ866001|JQ866001"	9010	9855	846	"*"	293	9927
+"3"	"KC503852|KC503852"	6261	8531	"+"	3	634.114	1787	2.07239e-184	6452	8788	6261	2	3	374	494	62	799	9804	9927	"JQ866001|JQ866001"	1787	20	TRUE	"JQ866001|JQ866001"	6452	8788	2337	"*"	799	9927
+"2"	"KC503852|KC503852"	1035	5963	"+"	2	659.108	1858	4.54122e-192	1208	6157	1035	2	3	625	841	27	1660	9804	9927	"JQ866001|JQ866001"	1858	12	TRUE	"JQ866001|JQ866001"	1208	6157	4950	"*"	1660	9927
+"17"	"KC503852|KC503852"	1	978	"-"	17	135.657	371	3.13117e-33	84	1070	978	-2	-1	122	164	25	340	9804	9927	"JQ866001|JQ866001"	371	7	TRUE	"JQ866001|JQ866001"	84	1070	987	"*"	340	9927

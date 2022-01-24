@@ -1,0 +1,43 @@
+##gff-version 3
+##sequence-region AF131870 1 10006
+# conversion-by bp_genbank2gff3.pl
+# organism Simian immunodeficiency virus
+# Note Simian immunodeficiency virus complete genome
+# date 19-AUG-1999
+AF131870	GenBank	region	1	10006	.	+	1	ID=AF131870;Name=AF131870;Dbxref=taxon:11723;Name=AF131870;Note=Simian;date=19-AUG-1999;host=Cercopithecus_solatus;mol_type=genomic_DNA;organism=Simian_immunodeficiency_virus;proviral=Simian_immunodeficiency_virus;strain=SIVsun
+AF131870	GenBank	gene	1063	2628	.	+	1	ID=gag;Name=gag;Name=gag
+AF131870	GenBank	mRNA	1063	2628	.	+	1	ID=gag.t01;Name=gag.t01;Parent=gag
+AF131870	GenBank	CDS	1063	2628	.	+	0	ID=gag.p01;Name=gag.p01;Parent=gag.t01;Dbxref=GI:5106563;Name=gag;codon_start=1;product=Gag_protein;protein_id=AAD39752.1;transl_table=1;translation=length.521
+AF131870	GenBank	exon	1063	2628	.	+	1	Parent=gag.t01
+AF131870	GenBank	gene	2355	5438	.	+	1	ID=pol;Name=pol;Name=pol
+AF131870	GenBank	mRNA	2355	5438	.	+	1	ID=pol.t01;Name=pol.t01;Parent=pol
+AF131870	GenBank	CDS	2355	5438	.	+	0	ID=pol.p01;Name=pol.p01;Parent=pol.t01;Dbxref=GI:5106564;Name=pol;Note=polymerase;codon_start=1;product=Pol_protein;protein_id=AAD39753.1;transl_table=1;translation=length.1027
+AF131870	GenBank	exon	2355	5438	.	+	1	Parent=pol.t01
+AF131870	GenBank	gene	5401	6126	.	+	1	ID=vif;Name=vif;Name=vif
+AF131870	GenBank	mRNA	5401	6126	.	+	1	ID=vif.t01;Name=vif.t01;Parent=vif
+AF131870	GenBank	CDS	5401	6126	.	+	0	ID=vif.p01;Name=vif.p01;Parent=vif.t01;Dbxref=GI:5106565;Name=vif;Note=Vif_protein;codon_start=1;product=viral_infectivity_factor;protein_id=AAD39754.1;transl_table=1;translation=length.241
+AF131870	GenBank	exon	5401	6126	.	+	1	Parent=vif.t01
+AF131870	GenBank	gene	5909	6259	.	+	1	ID=vpr;Name=vpr;Name=vpr
+AF131870	GenBank	mRNA	5909	6259	.	+	1	ID=vpr.t01;Name=vpr.t01;Parent=vpr
+AF131870	GenBank	CDS	5909	6259	.	+	0	ID=vpr.p01;Name=vpr.p01;Parent=vpr.t01;Dbxref=GI:5106566;Name=vpr;Note=Vpr_protein;codon_start=1;product=viral_protein_r;protein_id=AAD39755.1;transl_table=1;translation=length.116
+AF131870	GenBank	exon	5909	6259	.	+	1	Parent=vpr.t01
+AF131870	GenBank	gene	6189	8783	.	+	1	ID=tat;Name=tat;Name=tat
+AF131870	GenBank	mRNA	6189	8783	.	+	1	ID=tat.t01;Name=tat.t01;Parent=tat
+AF131870	GenBank	CDS	6189	6412	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:5106567;Name=tat;codon_start=1;product=Tat_protein;protein_id=AAD39756.1;transl_table=1;translation=length.102
+AF131870	GenBank	CDS	8699	8783	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:5106567;Name=tat;codon_start=1;product=Tat_protein;protein_id=AAD39756.1;transl_table=1;translation=length.102
+AF131870	GenBank	exon	6189	6412	.	+	1	Parent=tat.t01
+AF131870	GenBank	exon	8699	8783	.	+	1	Parent=tat.t01
+AF131870	GenBank	gene	6352	9090	.	+	1	ID=rev;Name=rev;Name=rev
+AF131870	GenBank	mRNA	6352	9090	.	+	1	ID=rev.t01;Name=rev.t01;Parent=rev
+AF131870	GenBank	CDS	6352	6412	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:5106568;Name=rev;codon_start=1;product=Rev_protein;protein_id=AAD39757.1;transl_table=1;translation=length.150
+AF131870	GenBank	CDS	8699	9090	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:5106568;Name=rev;codon_start=1;product=Rev_protein;protein_id=AAD39757.1;transl_table=1;translation=length.150
+AF131870	GenBank	exon	6352	6412	.	+	1	Parent=rev.t01
+AF131870	GenBank	exon	8699	9090	.	+	1	Parent=rev.t01
+AF131870	GenBank	gene	6422	9181	.	+	1	ID=env;Name=env;Name=env
+AF131870	GenBank	mRNA	6422	9181	.	+	1	ID=env.t01;Name=env.t01;Parent=env
+AF131870	GenBank	CDS	6422	9181	.	+	0	ID=env.p01;Name=env.p01;Parent=env.t01;Dbxref=GI:5106569;Name=env;Note=Env_protein;codon_start=1;product=envelope_glycoprotein;protein_id=AAD39758.1;transl_table=1;translation=length.919
+AF131870	GenBank	exon	6422	9181	.	+	1	Parent=env.t01
+AF131870	GenBank	gene	8961	9587	.	+	1	ID=nef;Name=nef;Name=nef
+AF131870	GenBank	mRNA	8961	9587	.	+	1	ID=nef.t01;Name=nef.t01;Parent=nef
+AF131870	GenBank	CDS	8961	9587	.	+	0	ID=nef.p01;Name=nef.p01;Parent=nef.t01;Dbxref=GI:5106570;Name=nef;codon_start=1;product=Nef_protein;protein_id=AAD39759.1;transl_table=1;translation=length.208
+AF131870	GenBank	exon	8961	9587	.	+	1	Parent=nef.t01

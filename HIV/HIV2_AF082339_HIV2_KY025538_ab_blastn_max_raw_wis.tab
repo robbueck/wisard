@@ -1,0 +1,5 @@
+"seqnames"	"start"	"end"	"strand"	"Hsp_num"	"Hsp_bit.score"	"Hsp_score"	"Hsp_evalue"	"Hsp_query.from"	"Hsp_query.to"	"Hsp_hit.from.1"	"Hsp_query.frame"	"Hsp_hit.frame"	"Hsp_identity"	"Hsp_positive"	"Hsp_gaps"	"Hsp_align.len"	"seq_len"	"query_len"	"query_id"	"raw_score"	"ID"	"filter_pass"	"query_ranges.seqnames"	"query_ranges.start"	"query_ranges.end"	"query_ranges.width"	"query_ranges.strand"	"score"	"query_len.1"
+"4"	"AF082339|AF082339"	9504	10353	"+"	4	962.548	673	2.65097e-282	1	845	9504	1	1	773	773	13	854	10353	10354	"KY025538|KY025538"	673	8	TRUE	"KY025538|KY025538"	1	845	845	"*"	673	10354
+"1"	"AF082339|AF082339"	2459	8061	"+"	1	6162.34	4321	0	2455	8064	2459	1	1	4994	4994	31	5622	10353	10354	"KY025538|KY025538"	4321	7	TRUE	"KY025538|KY025538"	2455	8064	5610	"*"	4321	10354
+"8"	"AF082339|AF082339"	1730	1758	"+"	8	24.6461	15	8.10737	4155	4183	1730	1	1	22	22	NA	29	10353	10354	"KY025538|KY025538"	15	3	TRUE	"KY025538|KY025538"	4155	4183	29	"*"	15	10354
+"5"	"AF082339|AF082339"	1	850	"+"	5	961.122	672	7.12418e-282	9507	10354	1	1	1	771	771	10	854	10353	10354	"KY025538|KY025538"	672	2	TRUE	"KY025538|KY025538"	9507	10354	848	"*"	672	10354

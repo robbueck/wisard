@@ -1,0 +1,49 @@
+##gff-version 3
+##sequence-region U27200 1 10351
+# conversion-by bp_genbank2gff3.pl
+# organism Human immunodeficiency virus 2
+# Note Human immunodeficiency virus type 2 EHO, complete genome
+# date 22-SEP-1995
+HIV2U27200	GenBank	region	1	10351	.	+	1	ID=U27200;Name=U27200;Dbxref=taxon:11709;Name=U27200;Note=Human immunodeficiency virus type 2 EHO%2C complete genome,The HIV-2 EHO isolate was obtained from blood lymphocytes of an Ivory Coast patient with AIDS. ;date=22-SEP-1995;isolate=EHO;mol_type=genomic DNA;organism=Human immunodeficiency virus 2;proviral=Human immunodeficiency virus 2
+HIV2U27200	GenBank	LTR	1	855	.	+	1	ID=GenBank:LTR:HIV2U27200:1:855;Name=GenBank:LTR:HIV2U27200:1:855;
+HIV2U27200	GenBank	gene	1080	2639	.	+	1	ID=gag;Name=gag;Name=gag
+HIV2U27200	GenBank	mRNA	1080	2639	.	+	1	ID=gag.t01;Name=gag.t01;Parent=gag
+HIV2U27200	GenBank	CDS	1080	2639	.	+	0	ID=gag.p01;Name=gag.p01;Parent=gag.t01;Dbxref=GI:995585;Name=gag;codon_start=1;product=core protein;protein_id=AAC54466.1;transl_table=1;translation=length.519
+HIV2U27200	GenBank	exon	1080	2639	.	+	1	Parent=gag.t01
+HIV2U27200	GenBank	gene	2306	5473	.	+	1	ID=pol;Name=pol;Name=pol
+HIV2U27200	GenBank	mRNA	2306	5473	.	+	1	ID=pol.t01;Name=pol.t01;Parent=pol
+HIV2U27200	GenBank	CDS	2306	5473	.	+	0	ID=pol.p01;Name=pol.p01;Parent=pol.t01;Dbxref=GI:995586;Name=pol;codon_start=1;product=reverse transcriptase;protein_id=AAC54467.1;transl_table=1;translation=length.1055
+HIV2U27200	GenBank	exon	2306	5473	.	+	1	Parent=pol.t01
+HIV2U27200	GenBank	gene	5394	6044	.	+	1	ID=vif;Name=vif;Name=vif
+HIV2U27200	GenBank	mRNA	5394	6044	.	+	1	ID=vif.t01;Name=vif.t01;Parent=vif
+HIV2U27200	GenBank	CDS	5394	6044	.	+	0	ID=vif.p01;Name=vif.p01;Parent=vif.t01;Dbxref=GI:995587;Name=vif;codon_start=1;function=promote infectivity;protein_id=AAC54468.1;transl_table=1;translation=length.216
+HIV2U27200	GenBank	exon	5394	6044	.	+	1	Parent=vif.t01
+HIV2U27200	GenBank	gene	5875	6210	.	+	1	ID=vpx;Name=vpx;Name=vpx
+HIV2U27200	GenBank	mRNA	5875	6210	.	+	1	ID=vpx.t01;Name=vpx.t01;Parent=vpx
+HIV2U27200	GenBank	CDS	5875	6210	.	+	0	ID=vpx.p01;Name=vpx.p01;Parent=vpx.t01;Dbxref=GI:995588;Name=vpx;codon_start=1;protein_id=AAC54469.1;transl_table=1;translation=length.111
+HIV2U27200	GenBank	exon	5875	6210	.	+	1	Parent=vpx.t01
+HIV2U27200	GenBank	gene	6135	6515	.	+	1	ID=vpr;Name=vpr;Name=vpr
+HIV2U27200	GenBank	mRNA	6135	6515	.	+	1	ID=vpr.t01;Name=vpr.t01;Parent=vpr
+HIV2U27200	GenBank	CDS	6135	6515	.	+	0	ID=vpr.p01;Name=vpr.p01;Parent=vpr.t01;Dbxref=GI:995589;Name=vpr;codon_start=1;product=transcriptional activator;protein_id=AAC54470.1;transl_table=1;translation=length.126
+HIV2U27200	GenBank	exon	6135	6515	.	+	1	Parent=vpr.t01
+HIV2U27200	GenBank	gene	6373	8949	.	+	1	ID=tat;Name=tat;Name=tat
+HIV2U27200	GenBank	mRNA	6373	8949	.	+	1	ID=tat.t01;Name=tat.t01;Parent=tat
+HIV2U27200	GenBank	CDS	6373	6660	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:995590;Name=tat;codon_start=1;product=transcriptional activator;protein_id=AAC54471.1;transl_table=1;translation=length.139
+HIV2U27200	GenBank	CDS	8818	8949	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:995590;Name=tat;codon_start=1;product=transcriptional activator;protein_id=AAC54471.1;transl_table=1;translation=length.139
+HIV2U27200	GenBank	exon	6373	6660	.	+	1	Parent=tat.t01
+HIV2U27200	GenBank	exon	8818	8949	.	+	1	Parent=tat.t01
+HIV2U27200	GenBank	gene	6599	9211	.	+	1	ID=rev;Name=rev;Name=rev
+HIV2U27200	GenBank	mRNA	6599	9211	.	+	1	ID=rev.t01;Name=rev.t01;Parent=rev
+HIV2U27200	GenBank	CDS	6599	6676	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:995591;Name=rev;codon_start=1;function=regulator of structural gene expression;product=regulatory protein;protein_id=AAC54472.1;transl_table=1;translation=length.156
+HIV2U27200	GenBank	CDS	8819	9211	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:995591;Name=rev;codon_start=1;function=regulator of structural gene expression;product=regulatory protein;protein_id=AAC54472.1;transl_table=1;translation=length.156
+HIV2U27200	GenBank	exon	6599	6676	.	+	1	Parent=rev.t01
+HIV2U27200	GenBank	exon	8819	9211	.	+	1	Parent=rev.t01
+HIV2U27200	GenBank	gene	6669	9227	.	+	1	ID=env;Name=env;Name=env
+HIV2U27200	GenBank	mRNA	6669	9227	.	+	1	ID=env.t01;Name=env.t01;Parent=env
+HIV2U27200	GenBank	CDS	6669	9227	.	+	0	ID=env.p01;Name=env.p01;Parent=env.t01;Dbxref=GI:995592;Name=env;codon_start=1;product=envelope glycoprotein;protein_id=AAC54473.1;transl_table=1;translation=length.852
+HIV2U27200	GenBank	exon	6669	9227	.	+	1	Parent=env.t01
+HIV2U27200	GenBank	LTR	9392	10351	.	+	1	ID=GenBank:LTR:HIV2U27200:9392:10351;Name=GenBank:LTR:HIV2U27200:9392:10351;Note=3 LTR U3R
+HIV2U27200	GenBank	gene	9061	9777	.	+	1	ID=nef;Name=nef;Name=nef
+HIV2U27200	GenBank	mRNA	9061	9777	.	+	1	ID=nef.t01;Name=nef.t01;Parent=nef
+HIV2U27200	GenBank	CDS	9061	9777	.	+	0	ID=nef.p01;Name=nef.p01;Parent=nef.t01;Dbxref=GI:995593;Name=nef;codon_start=1;protein_id=AAC54474.1;transl_table=1;translation=length.238
+HIV2U27200	GenBank	exon	9061	9777	.	+	1	Parent=nef.t01

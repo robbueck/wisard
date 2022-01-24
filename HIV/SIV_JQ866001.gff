@@ -1,0 +1,47 @@
+##gff-version 3
+##sequence-region JQ866001 1 9927
+# conversion-by bp_genbank2gff3.pl
+# organism Simian immunodeficiency virus
+# Note Simian immunodeficiency virus isolate BF1167, complete genome
+# date 12-SEP-2012
+JQ866001	GenBank	region	1	9927	.	+	1	ID=JQ866001;Name=JQ866001;Dbxref=taxon:11723;Name=JQ866001;Note=Simian immunodeficiency virus isolate BF1167%2C complete genome,\n##Assembly-Data-START##\nAssembly Method Sequencher v. 4 Sequencing Technology Sanger dideoxy sequencing ;country=Democratic Republic of the Congo;date=12-SEP-2012;host=Pan troglodytes schweinfurthii;isolate=BF1167;isolation_source=feces;mol_type=genomic DNA;organism=Simian immunodeficiency virus;proviral=Simian immunodeficiency virus
+JQ866001	GenBank	gene	805	2391	.	+	1	ID=gag;Name=gag;Name=gag
+JQ866001	GenBank	mRNA	805	2391	.	+	1	ID=gag.t01;Name=gag.t01;Parent=gag
+JQ866001	GenBank	CDS	805	2391	.	+	0	ID=gag.p01;Name=gag.p01;Parent=gag.t01;Dbxref=GI:392872127;Name=gag;codon_start=1;product=gag polyprotein;protein_id=AFM85329.1;transl_table=1;translation=length.528
+JQ866001	GenBank	exon	805	2391	.	+	1	Parent=gag.t01
+JQ866001	GenBank	gene	2184	5204	.	+	1	ID=pol;Name=pol;Name=pol
+JQ866001	GenBank	mRNA	2184	5204	.	+	1	ID=pol.t01;Name=pol.t01;Parent=pol
+JQ866001	GenBank	CDS	2184	5204	.	+	0	ID=pol.p01;Name=pol.p01;Parent=pol.t01;Dbxref=GI:392872128;Name=pol;codon_start=1;product=pol polyprotein;protein_id=AFM85330.1;transl_table=1;translation=length.1006
+JQ866001	GenBank	exon	2184	5204	.	+	1	Parent=pol.t01
+JQ866001	GenBank	gene	5149	5739	.	+	1	ID=vif;Name=vif;Name=vif
+JQ866001	GenBank	mRNA	5149	5739	.	+	1	ID=vif.t01;Name=vif.t01;Parent=vif
+JQ866001	GenBank	CDS	5149	5739	.	+	0	ID=vif.p01;Name=vif.p01;Parent=vif.t01;Dbxref=GI:392872129;Name=vif;codon_start=1;product=vif protein;protein_id=AFM85331.1;transl_table=1;translation=length.196
+JQ866001	GenBank	exon	5149	5739	.	+	1	Parent=vif.t01
+JQ866001	GenBank	gene	5679	5966	.	+	1	ID=vpr;Name=vpr;Name=vpr
+JQ866001	GenBank	mRNA	5679	5966	.	+	1	ID=vpr.t01;Name=vpr.t01;Parent=vpr
+JQ866001	GenBank	CDS	5679	5966	.	+	0	ID=vpr.p01;Name=vpr.p01;Parent=vpr.t01;Dbxref=GI:392872130;Name=vpr;codon_start=1;product=vpr protein;protein_id=AFM85332.1;transl_table=1;translation=length.95
+JQ866001	GenBank	exon	5679	5966	.	+	1	Parent=vpr.t01
+JQ866001	GenBank	gene	5941	8642	.	+	1	ID=tat;Name=tat;Name=tat
+JQ866001	GenBank	mRNA	5941	8642	.	+	1	ID=tat.t01;Name=tat.t01;Parent=tat
+JQ866001	GenBank	CDS	5941	6146	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:392872131;Name=tat;codon_start=1;product=tat protein;protein_id=AFM85333.1;transl_table=1;translation=length.100
+JQ866001	GenBank	CDS	8546	8642	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:392872131;Name=tat;codon_start=1;product=tat protein;protein_id=AFM85333.1;transl_table=1;translation=length.100
+JQ866001	GenBank	exon	5941	6146	.	+	1	Parent=tat.t01
+JQ866001	GenBank	exon	8546	8642	.	+	1	Parent=tat.t01
+JQ866001	GenBank	gene	6080	8856	.	+	1	ID=rev;Name=rev;Name=rev
+JQ866001	GenBank	mRNA	6080	8856	.	+	1	ID=rev.t01;Name=rev.t01;Parent=rev
+JQ866001	GenBank	CDS	6080	6146	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:392872132;Name=rev;codon_start=1;product=rev protein;protein_id=AFM85334.1;transl_table=1;translation=length.125
+JQ866001	GenBank	CDS	8546	8856	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:392872132;Name=rev;codon_start=1;product=rev protein;protein_id=AFM85334.1;transl_table=1;translation=length.125
+JQ866001	GenBank	exon	6080	6146	.	+	1	Parent=rev.t01
+JQ866001	GenBank	exon	8546	8856	.	+	1	Parent=rev.t01
+JQ866001	GenBank	gene	6157	6402	.	+	1	ID=vpu;Name=vpu;Name=vpu
+JQ866001	GenBank	mRNA	6157	6402	.	+	1	ID=vpu.t01;Name=vpu.t01;Parent=vpu
+JQ866001	GenBank	CDS	6157	6402	.	+	0	ID=vpu.p01;Name=vpu.p01;Parent=vpu.t01;Dbxref=GI:392872133;Name=vpu;codon_start=1;product=vpu protein;protein_id=AFM85335.1;transl_table=1;translation=length.81
+JQ866001	GenBank	exon	6157	6402	.	+	1	Parent=vpu.t01
+JQ866001	GenBank	gene	6350	9004	.	+	1	ID=env;Name=env;Name=env
+JQ866001	GenBank	mRNA	6350	9004	.	+	1	ID=env.t01;Name=env.t01;Parent=env
+JQ866001	GenBank	CDS	6350	9004	.	+	0	ID=env.p01;Name=env.p01;Parent=env.t01;Dbxref=GI:392872134;Name=env;codon_start=1;product=envelope glycoprotein;protein_id=AFM85336.1;transl_table=1;translation=length.884
+JQ866001	GenBank	exon	6350	9004	.	+	1	Parent=env.t01
+JQ866001	GenBank	gene	9007	9594	.	+	1	ID=nef;Name=nef;Name=nef
+JQ866001	GenBank	mRNA	9007	9594	.	+	1	ID=nef.t01;Name=nef.t01;Parent=nef
+JQ866001	GenBank	CDS	9007	9594	.	+	0	ID=nef.p01;Name=nef.p01;Parent=nef.t01;Dbxref=GI:392872135;Name=nef;codon_start=1;product=nef protein;protein_id=AFM85337.1;transl_table=1;translation=length.195
+JQ866001	GenBank	exon	9007	9594	.	+	1	Parent=nef.t01

@@ -1,0 +1,108 @@
+#' Greedy algorithm for a set of overlapping intervals.
+#'
+#' @description A function to create a set of non-overlapping intervals using a
+#' greedy algorithm by prefering intervals with higeher scores.
+#'
+#' @param granges_list A set of intervals as a \linkS4class{GRangesList} object.
+#'   Requires a score column to be specified in \code{max_score}.
+#' @param max_score Name of a column in \code{granges_list} containing integers
+#'   or floats to be used as a score to maximize over.
+#' @param overlap A non-negative integer specifying the allowed overlap between
+#'   two intervals.
+#' @param is_circular Boolean. If set true, intervals are assumed to be on a
+#'   circular scale.
+#' @param overhang A non-negative integer how much of the end is overlapping
+#'   with the start. specifying for a linearized circular scale  Ignored if
+#'   is_circular is FALSE.
+#' @param use_strand Boolean. If TRUE, strand information is used to detect
+#'   overlaps
+#' @param second_range Optional, name of a column in granges_list containing
+#'   another \linkS4class{GRangesList} object. If set, for intervals in
+#'   granges_list to be compatible, they also have to be compatible in
+#'   second_range.
+#' @return A \linkS4class{GRangesList} object with intervals compatible
+#'   according to the specified options.
+#' @details The algorithm seeks to maximize the sum of a score given in
+#'   max_score, but does not necessarily return the best possible solution.
+
+#'  Created mainly for comparison with the WIS-algorithm function [get_wis].
+#'
+#'  When is_circular is TRUE, intervals exceeding the end of the scale given by
+#'  (seqlength(granges_list) - overhang) are wrapped to the beginning.
+#'
+#'
+#' @seealso \url{https://doi.org/10.1093/bioinformatics/bth324} for description
+#'   of the algorithm
+#' @export
+#'
+#'
+#'
+################################################################################
+#greedy_algorithm
+################################################################################
+greedy_algorithm <- function(granges_list, max_score = "score",
+                             overlap = 0, is_circular = F,
+                             overhang = 0, use_strand = F,
+                             second_range = NULL) {
+
+  Check <- checkmate::makeAssertCollection()
+  checkmate::assertClass(granges_list, classes = "GRanges", add = Check)
+  checkmate::assertSubset(max_score,
+               choices = colnames(mcols(granges_list)),
+               empty.ok = F,
+               add = Check)
+  checkmate::assertInt(overlap, na.ok = F, lower = 0, add = Check)
+  checkmate::assertInt(overhang, na.ok = F, lower = 0, add = Check)
+  checkmate::assertSubset(second_range,
+               choices = colnames(mcols(granges_list)),
+               empty.ok = T,
+               add = Check)
+
+  checkmate::reportAssertions(Check)
+
+  print("Run greedy algorithm")
+  start_g <- Sys.time()
+  print("in greedy")
+  if(length(isCircular(granges_list)) > 1) {
+    warning("BLAST-Hits consist of more than one sequence, behaviour of
+            algorithm is uncertain in that case")
+  }
+  isCircular(granges_list) <- rep(is_circular,
+                                  length(isCircular(granges_list)))
+
+  # remove stuff that aligns only to the overhang
+  if (is_circular) {
+    seqlengths(granges_list) <- seqlengths(granges_list) - overhang
+  }
+  granges_list <- granges_list[which(
+    start(granges_list) < seqlengths(granges_list)
+  )]
+
+  granges_list$ID <- 1: length(granges_list) 
+
+  if ( length( granges_list ) > 1 ) {
+    granges_list <- sort(granges_list, decreasing = T,
+                         by = ~eval(as.name(max_score)))
+    # create new empty set to be filled and run algorithm
+    new_granges <- granges_list[rep(FALSE, times = length(granges_list))]
+    while ( length(granges_list) > 0) {
+      next_range <- granges_list[1]
+      no_overlaps <- which(countOverlaps(granges_list,
+                                         next_range,
+                                         ignore.strand = !use_strand,
+                                         minoverlap = (overlap + 1)) == 0)
+      # if second set is given, check for its compatibility
+      if (!is.null(second_range)) {
+        print("A second range has to be compatible")
+        second_no_overlaps <- which(
+          countOverlaps(mcols(granges_list[no_overlaps])[[second_range]],
+                        mcols(next_range)[[second_range]], ignore.strand = !use_strand,
+                        minoverlap = (overlap + 1)) == 0)
+        no_overlaps <- no_overlaps[second_no_overlaps]
+      }
+      granges_list <- granges_list[no_overlaps,]
+      new_granges <- c(new_granges, next_range)
+    }
+    return(new_granges)
+  } else { return( granges_list ) }
+}

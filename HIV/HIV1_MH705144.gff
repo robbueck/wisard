@@ -1,0 +1,49 @@
+##gff-version 3
+##sequence-region MH705144 1 9802
+# conversion-by bp_genbank2gff3.pl
+# organism Human immunodeficiency virus 1
+# Note HIV-1 isolate A1699 from Cameroon, complete genome
+# date 05-NOV-2018
+MH705144	GenBank	region	1	9802	.	+	1	ID=MH705144;Name=MH705144;Dbxref=taxon:11676;Name=MH705144;Note=HIV-1 isolate A1699 from Cameroon%2C complete genome,\n##Assembly-Data-START##\n,Assembly Method :: BWA v. CLC Bio Genome Workbench v9.0 ,Sequencing Technology :: Illumina,Sanger dideoxy\nsequencing ,##Assembly-Data-END##,subtype: F2;collection_date=2001;comment1=\n##Assembly-Data-START##\n%3B Assembly Method :: BWA v. CLC Bio Genome Workbench v9.0 %3B Sequencing Technology :: Illumina%3B Sanger dideoxy\nsequencing %3B ;country=Cameroon;date=05-NOV-2018;host=Homo sapiens;isolate=A1699;mol_type=genomic RNA;organism=Human immunodeficiency virus 1
+MH705144	GenBank	5UTR	1	650	.	+	1	ID=GenBank:5'UTR:MH705144:1:650;Name=GenBank:5'UTR:MH705144:1:650;
+MH705144	GenBank	gene	807	2282	.	+	1	ID=gag;Name=gag;Name=gag
+MH705144	GenBank	mRNA	807	2282	.	+	1	ID=gag.t01;Name=gag.t01;Parent=gag
+MH705144	GenBank	CDS	807	2282	.	+	0	ID=gag.p01;Name=gag.p01;Parent=gag.t01;Name=gag;codon_start=1;product=gag protein;protein_id=AYP19827.1;transl_table=1;translation=length.491
+MH705144	GenBank	exon	807	2282	.	+	1	Parent=gag.t01
+MH705144	GenBank	gene	2084	5095	.	+	1	ID=pol;Name=pol;Name=pol
+MH705144	GenBank	mRNA	2084	5095	.	+	1	ID=pol.t01;Name=pol.t01;Parent=pol
+MH705144	GenBank	CDS	2084	5095	.	+	0	ID=pol.p01;Name=pol.p01;Parent=pol.t01;Name=pol;codon_start=1;product=pol protein;protein_id=AYP19828.1;transl_table=1;translation=length.1003
+MH705144	GenBank	exon	2084	5095	.	+	1	Parent=pol.t01
+MH705144	GenBank	gene	5040	5621	.	+	1	ID=vif;Name=vif;Name=vif
+MH705144	GenBank	mRNA	5040	5621	.	+	1	ID=vif.t01;Name=vif.t01;Parent=vif
+MH705144	GenBank	CDS	5040	5621	.	+	0	ID=vif.p01;Name=vif.p01;Parent=vif.t01;Name=vif;codon_start=1;product=vif protein;protein_id=AYP19829.1;transl_table=1;translation=length.193
+MH705144	GenBank	exon	5040	5621	.	+	1	Parent=vif.t01
+MH705144	GenBank	gene	5561	5851	.	+	1	ID=vpr;Name=vpr;Name=vpr
+MH705144	GenBank	mRNA	5561	5851	.	+	1	ID=vpr.t01;Name=vpr.t01;Parent=vpr
+MH705144	GenBank	CDS	5561	5851	.	+	0	ID=vpr.p01;Name=vpr.p01;Parent=vpr.t01;Name=vpr;codon_start=1;product=vpr protein;protein_id=AYP19830.1;transl_table=1;translation=length.96
+MH705144	GenBank	exon	5561	5851	.	+	1	Parent=vpr.t01
+MH705144	GenBank	gene	5832	8530	.	+	1	ID=tat;Name=tat;Name=tat
+MH705144	GenBank	mRNA	5832	8530	.	+	1	ID=tat.t01;Name=tat.t01;Parent=tat
+MH705144	GenBank	CDS	5832	6046	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Name=tat;codon_start=1;product=tat protein;protein_id=AYP19831.1;transl_table=1;translation=length.99
+MH705144	GenBank	CDS	8446	8530	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Name=tat;codon_start=1;product=tat protein;protein_id=AYP19831.1;transl_table=1;translation=length.99
+MH705144	GenBank	exon	5832	6046	.	+	1	Parent=tat.t01
+MH705144	GenBank	exon	8446	8530	.	+	1	Parent=tat.t01
+MH705144	GenBank	gene	5971	8720	.	+	1	ID=rev;Name=rev;Name=rev
+MH705144	GenBank	mRNA	5971	8720	.	+	1	ID=rev.t01;Name=rev.t01;Parent=rev
+MH705144	GenBank	CDS	5971	6046	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Name=rev;codon_start=1;product=rev protein;protein_id=AYP19832.1;transl_table=1;translation=length.116
+MH705144	GenBank	CDS	8446	8720	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Name=rev;codon_start=1;product=rev protein;protein_id=AYP19832.1;transl_table=1;translation=length.116
+MH705144	GenBank	exon	5971	6046	.	+	1	Parent=rev.t01
+MH705144	GenBank	exon	8446	8720	.	+	1	Parent=rev.t01
+MH705144	GenBank	gene	6063	6308	.	+	1	ID=vpu;Name=vpu;Name=vpu
+MH705144	GenBank	mRNA	6063	6308	.	+	1	ID=vpu.t01;Name=vpu.t01;Parent=vpu
+MH705144	GenBank	CDS	6063	6308	.	+	0	ID=vpu.p01;Name=vpu.p01;Parent=vpu.t01;Name=vpu;codon_start=1;product=vpu product;protein_id=AYP19833.1;transl_table=1;translation=length.81
+MH705144	GenBank	exon	6063	6308	.	+	1	Parent=vpu.t01
+MH705144	GenBank	gene	6226	8862	.	+	1	ID=env;Name=env;Name=env
+MH705144	GenBank	mRNA	6226	8862	.	+	1	ID=env.t01;Name=env.t01;Parent=env
+MH705144	GenBank	CDS	6226	8862	.	+	0	ID=env.p01;Name=env.p01;Parent=env.t01;Name=env;codon_start=1;product=envelope glycoprotein;protein_id=AYP19834.1;transl_table=1;translation=length.878
+MH705144	GenBank	exon	6226	8862	.	+	1	Parent=env.t01
+MH705144	GenBank	gene	8864	9481	.	+	1	ID=nef;Name=nef;Name=nef
+MH705144	GenBank	mRNA	8864	9481	.	+	1	ID=nef.t01;Name=nef.t01;Parent=nef
+MH705144	GenBank	3'UTR	9153	9802	.	+	1	Parent=nef
+MH705144	GenBank	CDS	8864	9481	.	+	0	ID=nef.p01;Name=nef.p01;Parent=nef.t01;Name=nef;codon_start=1;product=nef protein;protein_id=AYP19835.1;transl_table=1;translation=length.205
+MH705144	GenBank	exon	8864	9481	.	+	1	Parent=nef.t01

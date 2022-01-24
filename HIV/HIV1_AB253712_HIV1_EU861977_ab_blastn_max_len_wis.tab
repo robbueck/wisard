@@ -1,0 +1,6 @@
+"seqnames"	"start"	"end"	"strand"	"Hsp_num"	"Hsp_bit.score"	"Hsp_score"	"Hsp_evalue"	"Hsp_query.from"	"Hsp_query.to"	"Hsp_hit.from.1"	"Hsp_query.frame"	"Hsp_hit.frame"	"Hsp_identity"	"Hsp_positive"	"Hsp_gaps"	"Hsp_align.len"	"seq_len"	"query_len"	"query_id"	"raw_score"	"ID"	"filter_pass"	"query_ranges.seqnames"	"query_ranges.start"	"query_ranges.end"	"query_ranges.width"	"query_ranges.strand"	"score"	"query_len.1"
+"8"	"AB253712|AB253712"	9794	10170	"+"	8	282.64	196	1.51268e-77	1	379	9794	1	1	289	289	2	379	10340	9781	"EU861977|EU861977"	196	14	TRUE	"EU861977|EU861977"	1	379	379	"*"	379	9781
+"2"	"AB253712|AB253712"	5320	9624	"+"	2	4203.87	2947	0	4646	8954	5320	1	1	3655	3655	32	4323	10340	9781	"EU861977|EU861977"	2947	13	TRUE	"EU861977|EU861977"	4646	8954	4309	"*"	4323	9781
+"1"	"AB253712|AB253712"	668	5304	"+"	1	5409.74	3793	0	659	5296	668	1	1	4208	4208	7	4641	10340	9781	"EU861977|EU861977"	3793	10	TRUE	"EU861977|EU861977"	659	5296	4638	"*"	4641	9781
+"4"	"AB253712|AB253712"	323	667	"+"	4	393.82	274	4.93864e-111	338	682	323	1	1	314	314	4	347	10340	9781	"EU861977|EU861977"	274	5	TRUE	"EU861977|EU861977"	338	682	345	"*"	347	9781
+"16"	"AB253712|AB253712"	116	148	"-"	16	24.6461	15	7.64587	1343	1375	116	1	-1	24	24	NA	33	10340	9781	"EU861977|EU861977"	15	1	TRUE	"EU861977|EU861977"	1343	1375	33	"*"	33	9781

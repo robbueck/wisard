@@ -1,0 +1,13 @@
+##gff-version 3
+##sequence-region MK458169 1 10286
+# conversion-by bp_genbank2gff3.pl
+# organism Human immunodeficiency virus 1
+# Note HIV-1 isolate 074-C-319-1-1_w74_405 from Botswana defective genome
+# date 08-JAN-2020
+MK458169	GenBank	region	1	10286	.	+	1	ID=MK458169;Name=MK458169;Dbxref=taxon:11676;Name=MK458169;Note=HIV-1 isolate 074-C-319-1-1_w74_405 from Botswana defective genome,\n##Assembly-Data-START##\n,Assembly Method :: In-house assembler by MGH DNA Core (https://dnacore.mgh.harvard.edu) v. unknown ,\nSequencing Technology :: Illumina ,##Assembly-Data-END##,large deletion;collection_date=2015/2018;comment1=\n##Assembly-Data-START##\n%3B Assembly Method :: In-house assembler by MGH DNA Core (https://dnacore.mgh.harvard.edu) v. unknown %3B\nSequencing Technology :: Illumina %3B ;country=Botswana;date=08-JAN-2020;host=Homo sapiens;isolate=074-C-319-1-1_w74_405;mol_type=genomic DNA;organism=Human immunodeficiency virus 1;proviral=Human immunodeficiency virus 1
+MK458169	GenBank	gene	154	1662	.	+	1	ID=gag;Name=gag;Name=gag
+MK458169	GenBank	mRNA	154	1662	.	+	1	ID=gag.t01;Name=gag.t01;Parent=gag
+MK458169	GenBank	CDS	154	1662	.	+	0	ID=gag.p01;Name=gag.p01;Parent=gag.t01;Name=gag;codon_start=1;product=gag protein;protein_id=QHB20130.1;transl_table=1;translation=length.502
+MK458169	GenBank	exon	154	1662	.	+	1	Parent=gag.t01
+MK458169	GenBank	gene	1443	2645	.	+	1	ID=pol;Name=pol;Name=pol
+MK458169	GenBank	gene_component_region	1443	2645	.	+	1	Parent=pol;Name=pol;Note=nonfunctional pol protein due to mutation

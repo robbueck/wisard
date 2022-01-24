@@ -1,0 +1,49 @@
+##gff-version 3
+##sequence-region AF082339 1 10353
+# conversion-by bp_genbank2gff3.pl
+# organism Human immunodeficiency virus 2
+# Note HIV-2 isolate ALI from Guinea-Bissau, complete genome
+# date 10-DEC-1998
+AF082339	GenBank	region	1	10353	.	+	1	ID=AF082339;Name=AF082339;Dbxref=taxon:11709;Name=AF082339;Note=HIV-2 isolate ALI from Guinea-Bissau%2C complete genome,Another sequence of the Env gene from this same isolate is available with accession number L25445. The 2 sequences are 98%25  identical.  This sequence belongs to subtype A of HIV-2. ,primary isolate recovered from a symptomatic patient%3B differentiating biological characteristics compared to other HIV-2: low infectivity in vitro%2C persistent incapability to induce syncytia formation%2C extremely narrow cellular host range%3B virus was only passaged twice in human PBMC before chromosomal DNA from infected cells was harvested%3B direct PCR was performed to obtain the total proviral DNA in four overlapping fragments that were cloned into plasmid vector pCR3%3B both strands of proviral DNA were completely sequenced%3B the HIV-2 ALI genome reveals a similar localization of the open reading frames for structural%2C regulatory and accessory genes%2C compared to other HIV-2 viruses;comment1=Another sequence of the Env gene from this same isolate is available with accession number L25445. The 2 sequences are 98%25  identical.  This sequence belongs to subtype A of HIV-2. ;country=Guinea-Bissau;date=10-DEC-1998;isolate=ALI;mol_type=genomic DNA;organism=Human immunodeficiency virus 2;proviral=Human immunodeficiency virus 2;strain=HIV-2ALI
+AF082339	GenBank	LTR	1	850	.	+	1	ID=GenBank:LTR:AF082339:1:850;Name=GenBank:LTR:AF082339:1:850;Note=5'' long terminal repeat
+AF082339	GenBank	gene	1096	2661	.	+	1	ID=gag;Name=gag;Name=gag
+AF082339	GenBank	mRNA	1096	2661	.	+	1	ID=gag.t01;Name=gag.t01;Parent=gag
+AF082339	GenBank	CDS	1096	2661	.	+	0	ID=gag.p01;Name=gag.p01;Parent=gag.t01;Dbxref=GI:4007992;Name=gag;Note=encodes structural proteins of HIV-2 ALI nucleocapside;codon_start=1;product=gag protein;protein_id=AAC95340.1;transl_table=1;translation=length.521
+AF082339	GenBank	exon	1096	2661	.	+	1	Parent=gag.t01
+AF082339	GenBank	gene	2319	5486	.	+	1	ID=pol;Name=pol;Name=pol
+AF082339	GenBank	mRNA	2319	5486	.	+	1	ID=pol.t01;Name=pol.t01;Parent=pol
+AF082339	GenBank	CDS	2319	5486	.	+	0	ID=pol.p01;Name=pol.p01;Parent=pol.t01;Dbxref=GI:4007993;Name=pol;Note=encodes protease%2C reverse transcriptase and integrase;codon_start=1;product=pol polyprotein;protein_id=AAC95341.1;transl_table=1;translation=length.1055
+AF082339	GenBank	exon	2319	5486	.	+	1	Parent=pol.t01
+AF082339	GenBank	gene	5416	6063	.	+	1	ID=vif;Name=vif;Name=vif
+AF082339	GenBank	mRNA	5416	6063	.	+	1	ID=vif.t01;Name=vif.t01;Parent=vif
+AF082339	GenBank	CDS	5416	6063	.	+	0	ID=vif.p01;Name=vif.p01;Parent=vif.t01;Dbxref=GI:4007994;Name=vif;codon_start=1;function=accessory protein;product=vif protein;protein_id=AAC95342.1;transl_table=1;translation=length.215
+AF082339	GenBank	exon	5416	6063	.	+	1	Parent=vif.t01
+AF082339	GenBank	gene	5891	6229	.	+	1	ID=vpx;Name=vpx;Name=vpx
+AF082339	GenBank	mRNA	5891	6229	.	+	1	ID=vpx.t01;Name=vpx.t01;Parent=vpx
+AF082339	GenBank	CDS	5891	6229	.	+	0	ID=vpx.p01;Name=vpx.p01;Parent=vpx.t01;Dbxref=GI:4007995;Name=vpx;codon_start=1;function=accessory protein;product=vpx protein;protein_id=AAC95343.1;transl_table=1;translation=length.112
+AF082339	GenBank	exon	5891	6229	.	+	1	Parent=vpx.t01
+AF082339	GenBank	gene	6229	6546	.	+	1	ID=vpr;Name=vpr;Name=vpr
+AF082339	GenBank	mRNA	6229	6546	.	+	1	ID=vpr.t01;Name=vpr.t01;Parent=vpr
+AF082339	GenBank	CDS	6229	6546	.	+	0	ID=vpr.p01;Name=vpr.p01;Parent=vpr.t01;Dbxref=GI:4007996;Name=vpr;Note=accessory protein;codon_start=1;product=vpr protein;protein_id=AAC95344.1;transl_table=1;translation=length.105
+AF082339	GenBank	exon	6229	6546	.	+	1	Parent=vpr.t01
+AF082339	GenBank	gene	6392	8959	.	+	1	ID=tat;Name=tat;Name=tat
+AF082339	GenBank	mRNA	6392	8959	.	+	1	ID=tat.t01;Name=tat.t01;Parent=tat
+AF082339	GenBank	CDS	6392	6687	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:4007997;Name=tat;codon_start=1;function=regulatory protein;product=tat protein;protein_id=AAC95345.1;transl_table=1;translation=length.136
+AF082339	GenBank	CDS	8845	8959	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:4007997;Name=tat;codon_start=1;function=regulatory protein;product=tat protein;protein_id=AAC95345.1;transl_table=1;translation=length.136
+AF082339	GenBank	exon	6392	6687	.	+	1	Parent=tat.t01
+AF082339	GenBank	exon	8845	8959	.	+	1	Parent=tat.t01
+AF082339	GenBank	gene	6618	9098	.	+	1	ID=rev;Name=rev;Name=rev
+AF082339	GenBank	mRNA	6618	9098	.	+	1	ID=rev.t01;Name=rev.t01;Parent=rev
+AF082339	GenBank	CDS	6618	6687	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:4007998;Name=rev;codon_start=1;function=regulatory protein;product=rev protein;protein_id=AAC95346.1;transl_table=1;translation=length.107
+AF082339	GenBank	CDS	8845	9098	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:4007998;Name=rev;codon_start=1;function=regulatory protein;product=rev protein;protein_id=AAC95346.1;transl_table=1;translation=length.107
+AF082339	GenBank	exon	6618	6687	.	+	1	Parent=rev.t01
+AF082339	GenBank	exon	8845	9098	.	+	1	Parent=rev.t01
+AF082339	GenBank	gene	6694	9282	.	+	1	ID=env;Name=env;Name=env
+AF082339	GenBank	mRNA	6694	9282	.	+	1	ID=env.t01;Name=env.t01;Parent=env
+AF082339	GenBank	CDS	6694	9282	.	+	0	ID=env.p01;Name=env.p01;Parent=env.t01;Dbxref=GI:4007999;Name=env;codon_start=1;product=envelope glycoprotein;protein_id=AAC95347.1;transl_table=1;translation=length.862
+AF082339	GenBank	exon	6694	9282	.	+	1	Parent=env.t01
+AF082339	GenBank	LTR	9504	10353	.	+	1	ID=GenBank:LTR:AF082339:9504:10353;Name=GenBank:LTR:AF082339:9504:10353;Note=3'' long terminal repeat
+AF082339	GenBank	gene	9116	9904	.	+	1	ID=nef;Name=nef;Name=nef
+AF082339	GenBank	mRNA	9116	9904	.	+	1	ID=nef.t01;Name=nef.t01;Parent=nef
+AF082339	GenBank	CDS	9116	9904	.	+	0	ID=nef.p01;Name=nef.p01;Parent=nef.t01;Dbxref=GI:4008000;Name=nef;codon_start=1;function=accessory protein;product=nef protein;protein_id=AAC95348.1;transl_table=1;translation=length.262
+AF082339	GenBank	exon	9116	9904	.	+	1	Parent=nef.t01

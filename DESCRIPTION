@@ -1,0 +1,24 @@
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+Package: wisard
+Title: Perform wighted interval scheduling on a Genomic Ranges object
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Robert",
+           family = "Buecking",
+           role = c("aut", "cre"),
+           email = "robert.buecking@mdc-berlin.de",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package can be used to perfomr a weighted inveral scheduling 
+  algorithm on a set of intervals given as a GRanges object. It calculates a set 
+  of non-overlapping intervals by maximizing a given score for a given formular. 
+  Additionally, this package contains a function to read XML output from BLAST 
+  to a GRanges or data.frame object.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: R (>= 3.6.1), GenomicRanges (>= 1.38.0), checkmate (>= 2.0.0), XML (>= 3.99.0.3)
+Imports: GenomicRanges (>= 1.38.0), checkmate (>= 2.0.0), XML (>= 3.99.0.3)

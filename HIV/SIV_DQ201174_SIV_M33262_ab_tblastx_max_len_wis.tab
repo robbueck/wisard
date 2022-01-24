@@ -1,0 +1,4 @@
+"seqnames"	"start"	"end"	"strand"	"Hsp_num"	"Hsp_bit.score"	"Hsp_score"	"Hsp_evalue"	"Hsp_query.from"	"Hsp_query.to"	"Hsp_hit.from.1"	"Hsp_query.frame"	"Hsp_hit.frame"	"Hsp_identity"	"Hsp_positive"	"Hsp_gaps"	"Hsp_align.len"	"seq_len"	"query_len"	"query_id"	"raw_score"	"ID"	"filter_pass"	"query_ranges.seqnames"	"query_ranges.start"	"query_ranges.end"	"query_ranges.width"	"query_ranges.strand"	"score"	"query_len.1"
+"13"	"DQ201174|DQ201174"	10252	10314	"+"	13	41.6687	104	9.76954e-05	1011	1073	10252	3	1	20	20	NA	21	10315	10535	"M33262|SIVMM239"	104	24	TRUE	"M33262|SIVMM239"	1011	1073	63	"*"	21	10535
+"18"	"DQ201174|DQ201174"	6154	10251	"-"	18	1360.68	3851	0	6406	10473	10251	-3	-2	872	935	28	1375	10315	10535	"M33262|SIVMM239"	3851	19	TRUE	"M33262|SIVMM239"	6406	10473	4068	"*"	1375	10535
+"17"	"DQ201174|DQ201174"	1	6102	"-"	17	2040.42	5782	0	257	6355	6102	-2	-2	1273	1369	25	2046	10315	10535	"M33262|SIVMM239"	5782	11	TRUE	"M33262|SIVMM239"	257	6355	6099	"*"	2046	10535

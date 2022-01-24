@@ -1,0 +1,5 @@
+"seqnames"	"start"	"end"	"strand"	"Hsp_num"	"Hsp_bit.score"	"Hsp_score"	"Hsp_evalue"	"Hsp_query.from"	"Hsp_query.to"	"Hsp_hit.from.1"	"Hsp_query.frame"	"Hsp_hit.frame"	"Hsp_identity"	"Hsp_positive"	"Hsp_gaps"	"Hsp_align.len"	"seq_len"	"query_len"	"query_id"	"raw_score"	"ID"	"filter_pass"	"query_ranges.seqnames"	"query_ranges.start"	"query_ranges.end"	"query_ranges.width"	"query_ranges.strand"	"score"	"query_len.1"
+"2"	"AF321523|AF321523"	7422	9685	"+"	2	2570.38	1801	0	7350	9610	7422	1	1	2037	2037	5	2265	9913	9804	"KC503852|KC503852"	1801	12	TRUE	"KC503852|KC503852"	7350	9610	2261	"*"	2265	9804
+"3"	"AF321523|AF321523"	6281	7404	"+"	3	1103.66	772	0	6192	7320	6281	1	1	963	963	13	1133	9913	9804	"KC503852|KC503852"	772	10	TRUE	"KC503852|KC503852"	6192	7320	1129	"*"	1133	9804
+"10"	"AF321523|AF321523"	6166	6202	"+"	10	24.6461	15	7.3478	8341	8377	6166	1	1	26	26	NA	37	9913	9804	"KC503852|KC503852"	15	5	TRUE	"KC503852|KC503852"	8341	8377	37	"*"	37	9804
+"1"	"AF321523|AF321523"	78	6074	"+"	1	7114.5	4989	0	1	5999	78	1	1	5523	5523	28	6012	9913	9804	"KC503852|KC503852"	4989	4	TRUE	"KC503852|KC503852"	1	5999	5999	"*"	6012	9804

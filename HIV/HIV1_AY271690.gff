@@ -1,0 +1,49 @@
+##gff-version 3
+##sequence-region AY271690 1 9774
+# conversion-by bp_genbank2gff3.pl
+# organism Human immunodeficiency virus 1
+# Note HIV-1 clone pBD6.15 from Cameroon, complete genome
+# date 04-SEP-2003
+AY271690	GenBank	region	1	9774	.	+	1	ID=AY271690;Name=AY271690;Dbxref=taxon:11676;Name=AY271690;Note=HIV-1 clone pBD6.15 from Cameroon%2C complete genome,primary isolate 99CMBD6%3B syncytium inducing and X4 tropic group: M;clone=pBD6.15;country=Cameroon;date=04-SEP-2003;isolation_source=recombinant virus (CRF02-AG) from a 32 year old female AIDS patient;mol_type=genomic DNA;organism=Human immunodeficiency virus 1;proviral=Human immunodeficiency virus 1
+AY271690	GenBank	gene	798	2294	.	+	1	ID=gag;Name=gag;Name=gag
+AY271690	GenBank	mRNA	798	2294	.	+	1	ID=gag.t01;Name=gag.t01;Parent=gag
+AY271690	GenBank	CDS	798	2294	.	+	0	ID=gag.p01;Name=gag.p01;Parent=gag.t01;Dbxref=GI:33390879;Name=gag;codon_start=1;product=gag protein;protein_id=AAQ17098.1;transl_table=1;translation=length.498
+AY271690	GenBank	exon	798	2294	.	+	1	Parent=gag.t01
+AY271690	GenBank	gene	2096	5107	.	+	1	ID=pol;Name=pol;Name=pol
+AY271690	GenBank	mRNA	2096	5107	.	+	1	ID=pol.t01;Name=pol.t01;Parent=pol
+AY271690	GenBank	CDS	2096	5107	.	+	0	ID=pol.p01;Name=pol.p01;Parent=pol.t01;Dbxref=GI:33390880;Name=pol;codon_start=1;product=pol protein;protein_id=AAQ17099.1;transl_table=1;translation=length.1003
+AY271690	GenBank	exon	2096	5107	.	+	1	Parent=pol.t01
+AY271690	GenBank	gene	5052	5630	.	+	1	ID=vif;Name=vif;Name=vif
+AY271690	GenBank	mRNA	5052	5630	.	+	1	ID=vif.t01;Name=vif.t01;Parent=vif
+AY271690	GenBank	CDS	5052	5630	.	+	0	ID=vif.p01;Name=vif.p01;Parent=vif.t01;Dbxref=GI:33390881;Name=vif;codon_start=1;product=vif protein;protein_id=AAQ17100.1;transl_table=1;translation=length.192
+AY271690	GenBank	exon	5052	5630	.	+	1	Parent=vif.t01
+AY271690	GenBank	gene	5570	5860	.	+	1	ID=vpr;Name=vpr;Name=vpr
+AY271690	GenBank	mRNA	5570	5860	.	+	1	ID=vpr.t01;Name=vpr.t01;Parent=vpr
+AY271690	GenBank	CDS	5570	5764	.	+	0	ID=vpr.p01;Name=vpr.p01;Parent=vpr.t01;Dbxref=GI:33390882;Name=vpr;codon_start=1;product=vpr protein;protein_id=AAQ17101.1;transl_table=1;translation=length.95
+AY271690	GenBank	CDS	5768	5860	.	+	0	ID=vpr.p01;Name=vpr.p01;Parent=vpr.t01;Dbxref=GI:33390882;Name=vpr;codon_start=1;product=vpr protein;protein_id=AAQ17101.1;transl_table=1;translation=length.95
+AY271690	GenBank	exon	5570	5764	.	+	1	Parent=vpr.t01
+AY271690	GenBank	exon	5768	5860	.	+	1	Parent=vpr.t01
+AY271690	GenBank	gene	5841	8513	.	+	1	ID=tat;Name=tat;Name=tat
+AY271690	GenBank	mRNA	5841	8513	.	+	1	ID=tat.t01;Name=tat.t01;Parent=tat
+AY271690	GenBank	CDS	5841	6056	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:33390884;Name=tat;codon_start=1;product=tat protein;protein_id=AAQ17103.1;transl_table=1;translation=length.101
+AY271690	GenBank	CDS	8424	8513	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:33390884;Name=tat;codon_start=1;product=tat protein;protein_id=AAQ17103.1;transl_table=1;translation=length.101
+AY271690	GenBank	exon	5841	6056	.	+	1	Parent=tat.t01
+AY271690	GenBank	exon	8424	8513	.	+	1	Parent=tat.t01
+AY271690	GenBank	gene	5980	8697	.	+	1	ID=rev;Name=rev;Name=rev
+AY271690	GenBank	mRNA	5980	8697	.	+	1	ID=rev.t01;Name=rev.t01;Parent=rev
+AY271690	GenBank	CDS	5980	6055	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:33390885;Name=rev;codon_start=1;product=rev protein;protein_id=AAQ17104.1;transl_table=1;translation=length.116
+AY271690	GenBank	CDS	8423	8697	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:33390885;Name=rev;codon_start=1;product=rev protein;protein_id=AAQ17104.1;transl_table=1;translation=length.116
+AY271690	GenBank	exon	5980	6055	.	+	1	Parent=rev.t01
+AY271690	GenBank	exon	8423	8697	.	+	1	Parent=rev.t01
+AY271690	GenBank	gene	6082	6327	.	+	1	ID=vpu;Name=vpu;Name=vpu
+AY271690	GenBank	mRNA	6082	6327	.	+	1	ID=vpu.t01;Name=vpu.t01;Parent=vpu
+AY271690	GenBank	CDS	6082	6327	.	+	0	ID=vpu.p01;Name=vpu.p01;Parent=vpu.t01;Dbxref=GI:33390883;Name=vpu;codon_start=1;product=vpu protein;protein_id=AAQ17102.1;transl_table=1;translation=length.81
+AY271690	GenBank	exon	6082	6327	.	+	1	Parent=vpu.t01
+AY271690	GenBank	gene	6245	8839	.	+	1	ID=env;Name=env;Name=env
+AY271690	GenBank	mRNA	6245	8839	.	+	1	ID=env.t01;Name=env.t01;Parent=env
+AY271690	GenBank	CDS	6245	8839	.	+	0	ID=env.p01;Name=env.p01;Parent=env.t01;Dbxref=GI:33390886;Name=env;codon_start=1;product=envelope glycoprotein;protein_id=AAQ17105.1;transl_table=1;translation=length.864
+AY271690	GenBank	exon	6245	8839	.	+	1	Parent=env.t01
+AY271690	GenBank	gene	8841	9500	.	+	1	ID=nef;Name=nef;Name=nef
+AY271690	GenBank	mRNA	8841	9500	.	+	1	ID=nef.t01;Name=nef.t01;Parent=nef
+AY271690	GenBank	CDS	8841	9500	.	+	0	ID=nef.p01;Name=nef.p01;Parent=nef.t01;Dbxref=GI:33390887;Name=nef;codon_start=1;product=nef protein;protein_id=AAQ17106.1;transl_table=1;translation=length.219
+AY271690	GenBank	exon	8841	9500	.	+	1	Parent=nef.t01

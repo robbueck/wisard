@@ -1,0 +1,45 @@
+##gff-version 3
+##sequence-region JX236671 1 9854
+# conversion-by bp_genbank2gff3.pl
+# organism Human immunodeficiency virus 1
+# Note HIV-1 isolate p191845 from Uganda gag protein (gag) gene, complete cds; pol protein (pol) gene, partial cds; vif protein (vif), vpr protein (vpr), tat protein (tat), rev protein (rev), vpu protein (vpu), and envelope glycoprotein (env) genes, complete cds; and nonfunctional nef protein (nef) gene, complete sequence
+# date 22-JUL-2012
+JX236671	GenBank	region	1	9854	.	+	1	ID=JX236671;Name=JX236671;Dbxref=taxon:11676;Name=JX236671;Note=HIV-1 isolate p191845 from Uganda gag protein (gag) gene%2C;country=Uganda;date=22-JUL-2012;host=Homo sapiens;isolate=p191845;mol_type=genomic RNA;organism=Human immunodeficiency virus 1
+JX236671	GenBank	gene	829	2328	.	+	1	ID=gag;Name=gag;Name=gag
+JX236671	GenBank	mRNA	829	2328	.	+	1	ID=gag.t01;Name=gag.t01;Parent=gag
+JX236671	GenBank	CDS	829	2328	.	+	0	ID=gag.p01;Name=gag.p01;Parent=gag.t01;Dbxref=GI:395758818;Name=gag;codon_start=1;product=gag protein;protein_id=AFN70480.1;transl_table=1;translation=length.499
+JX236671	GenBank	exon	829	2328	.	+	1	Parent=gag.t01
+JX236671	GenBank	gene	2118	5132	.	+	1	ID=pol;Name=pol;Name=pol
+JX236671	GenBank	mRNA	2118	5132	.	+	1	ID=pol.t01;Name=pol.t01;Parent=pol
+JX236671	GenBank	CDS	2118	5132	.	+	0	ID=pol.p01;Name=pol.p01;Parent=pol.t01;Dbxref=GI:395758819;Name=pol;codon_start=1;product=pol protein;protein_id=AFN70481.1;transl_table=1;translation=length.1004
+JX236671	GenBank	exon	2118	5132	.	+	1	Parent=pol.t01
+JX236671	GenBank	gene	5077	5655	.	+	1	ID=vif;Name=vif;Name=vif
+JX236671	GenBank	mRNA	5077	5655	.	+	1	ID=vif.t01;Name=vif.t01;Parent=vif
+JX236671	GenBank	CDS	5077	5655	.	+	0	ID=vif.p01;Name=vif.p01;Parent=vif.t01;Dbxref=GI:395758820;Name=vif;codon_start=1;product=vif protein;protein_id=AFN70482.1;transl_table=1;translation=length.192
+JX236671	GenBank	exon	5077	5655	.	+	1	Parent=vif.t01
+JX236671	GenBank	gene	5595	5885	.	+	1	ID=vpr;Name=vpr;Name=vpr
+JX236671	GenBank	mRNA	5595	5885	.	+	1	ID=vpr.t01;Name=vpr.t01;Parent=vpr
+JX236671	GenBank	CDS	5595	5885	.	+	0	ID=vpr.p01;Name=vpr.p01;Parent=vpr.t01;Dbxref=GI:395758821;Name=vpr;codon_start=1;product=vpr protein;protein_id=AFN70483.1;transl_table=1;translation=length.96
+JX236671	GenBank	exon	5595	5885	.	+	1	Parent=vpr.t01
+JX236671	GenBank	gene	5866	8568	.	+	1	ID=tat;Name=tat;Name=tat
+JX236671	GenBank	mRNA	5866	8568	.	+	1	ID=tat.t01;Name=tat.t01;Parent=tat
+JX236671	GenBank	CDS	5866	6080	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:395758822;Name=tat;codon_start=1;product=tat protein;protein_id=AFN70484.1;transl_table=1;translation=length.101
+JX236671	GenBank	CDS	8478	8568	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:395758822;Name=tat;codon_start=1;product=tat protein;protein_id=AFN70484.1;transl_table=1;translation=length.101
+JX236671	GenBank	exon	5866	6080	.	+	1	Parent=tat.t01
+JX236671	GenBank	exon	8478	8568	.	+	1	Parent=tat.t01
+JX236671	GenBank	gene	6005	8773	.	+	1	ID=rev;Name=rev;Name=rev
+JX236671	GenBank	mRNA	6005	8773	.	+	1	ID=rev.t01;Name=rev.t01;Parent=rev
+JX236671	GenBank	CDS	6005	6080	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:395758823;Name=rev;codon_start=1;product=rev protein;protein_id=AFN70485.1;transl_table=1;translation=length.123
+JX236671	GenBank	CDS	8478	8773	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:395758823;Name=rev;codon_start=1;product=rev protein;protein_id=AFN70485.1;transl_table=1;translation=length.123
+JX236671	GenBank	exon	6005	6080	.	+	1	Parent=rev.t01
+JX236671	GenBank	exon	8478	8773	.	+	1	Parent=rev.t01
+JX236671	GenBank	gene	6107	6355	.	+	1	ID=vpu;Name=vpu;Name=vpu
+JX236671	GenBank	mRNA	6107	6355	.	+	1	ID=vpu.t01;Name=vpu.t01;Parent=vpu
+JX236671	GenBank	CDS	6107	6355	.	+	0	ID=vpu.p01;Name=vpu.p01;Parent=vpu.t01;Dbxref=GI:395758824;Name=vpu;codon_start=1;product=vpu protein;protein_id=AFN70486.1;transl_table=1;translation=length.82
+JX236671	GenBank	exon	6107	6355	.	+	1	Parent=vpu.t01
+JX236671	GenBank	gene	6273	8915	.	+	1	ID=env;Name=env;Name=env
+JX236671	GenBank	mRNA	6273	8915	.	+	1	ID=env.t01;Name=env.t01;Parent=env
+JX236671	GenBank	CDS	6273	8915	.	+	0	ID=env.p01;Name=env.p01;Parent=env.t01;Dbxref=GI:395758825;Name=env;codon_start=1;product=envelope glycoprotein;protein_id=AFN70487.1;transl_table=1;translation=length.880
+JX236671	GenBank	exon	6273	8915	.	+	1	Parent=env.t01
+JX236671	GenBank	gene	8917	9553	.	+	1	ID=nef;Name=nef;Name=nef
+JX236671	GenBank	gene_component_region	8917	9553	.	+	1	Parent=nef;Name=nef;Note=nonfunctional nef protein due to mutation

@@ -1,0 +1,64 @@
+##gff-version 3
+##sequence-region M33262 1 10535
+# conversion-by bp_genbank2gff3.pl
+# organism Simian immunodeficiency virus
+# Note Simian (macaque) immunodeficiency virus, isolate 239, complete proviral genome and flanking sequence
+# date 08-AUG-2011
+SIVMM239	GenBank	region	1	10535	.	+	1	ID=M33262;Name=M33262;Dbxref=taxon:11723;Name=M33262;Note=Simian (macaque) immunodeficiency virus%2C isolate 239%2C complete proviral genome and flanking sequence,Kindly submitted in computer-readable form prior to publication by Dr. Desrosiers,New England Regional Primate Center,Harvard. ;date=08-AUG-2011;isolate=239;mol_type=genomic RNA;organism=Simian immunodeficiency virus
+SIVMM239	GenBank	LTR	257	1074	.	+	1	ID=GenBank:LTR:SIVMM239:257:1074;Name=GenBank:LTR:SIVMM239:257:1074;Note=5''LTR
+SIVMM239	GenBank	LTR	257	773	.	+	1	ID=GenBank:LTR:SIVMM239:257:773;Name=GenBank:LTR:SIVMM239:257:773;Note=U3
+SIVMM239	GenBank	repeat_region	774	950	.	+	1	ID=GenBank:repeat_region:SIVMM239:774:950;Name=GenBank:repeat_region:SIVMM239:774:950;Note=R
+SIVMM239	GenBank	region	775	775	.	+	1	ID=GenBank:region:SIVMM239:775:775;Name=GenBank:region:SIVMM239:775:775;Note=mRNA start (putative)%3B putative
+SIVMM239	GenBank	LTR	951	1074	.	+	1	ID=GenBank:LTR:SIVMM239:951:1074;Name=GenBank:LTR:SIVMM239:951:1074;Note=U5
+SIVMM239	GenBank	gene	1309	2841	.	+	1	ID=gag;Name=gag;Name=gag
+SIVMM239	GenBank	mRNA	1309	2841	.	+	1	ID=gag.t01;Name=gag.t01;Parent=gag
+SIVMM239	GenBank	CDS	1309	2841	.	+	0	ID=gag.p01;Name=gag.p01;Parent=gag.t01;Dbxref=GI:334650;Name=gag;codon_start=1;product=gag polyprotein;protein_id=AAA47632.1;transl_table=1;translation=length.510
+SIVMM239	GenBank	exon	1309	2841	.	+	1	Parent=gag.t01
+SIVMM239	GenBank	gene	2484	5666	.	+	1	ID=pol;Name=pol;Name=pol
+SIVMM239	GenBank	gene_component_region	5340	5355	.	+	1	Parent=pol;Name=pol;Note=polypurine tract
+SIVMM239	GenBank	mRNA	2484	5666	.	+	1	ID=pol.t01;Name=pol.t01;Parent=pol
+SIVMM239	GenBank	CDS	2484	5666	.	+	0	ID=pol.p01;Name=pol.p01;Parent=pol.t01;Dbxref=GI:7583329;Name=pol;codon_start=1;product=pol polyprotein;protein_id=AAA47633.2;transl_table=1;translation=length.1060
+SIVMM239	GenBank	exon	2484	5666	.	+	1	Parent=pol.t01
+SIVMM239	GenBank	gene	5596	6240	.	+	1	ID=vif;Name=vif;Name=vif
+SIVMM239	GenBank	mRNA	5596	6240	.	+	1	ID=vif.t01;Name=vif.t01;Parent=vif
+SIVMM239	GenBank	CDS	5596	6240	.	+	0	ID=vif.p01;Name=vif.p01;Parent=vif.t01;Dbxref=GI:334652;Name=vif;codon_start=1;product=vif protein;protein_id=AAA47634.1;transl_table=1;translation=length.214
+SIVMM239	GenBank	exon	5596	6240	.	+	1	Parent=vif.t01
+SIVMM239	GenBank	gene	6068	6406	.	+	1	ID=vpx;Name=vpx;Name=vpx
+SIVMM239	GenBank	mRNA	6068	6406	.	+	1	ID=vpx.t01;Name=vpx.t01;Parent=vpx
+SIVMM239	GenBank	CDS	6068	6406	.	+	0	ID=vpx.p01;Name=vpx.p01;Parent=vpx.t01;Dbxref=GI:334653;Name=vpx;codon_start=1;product=vpX protein;protein_id=AAA47635.1;transl_table=1;translation=length.112
+SIVMM239	GenBank	exon	6068	6406	.	+	1	Parent=vpx.t01
+SIVMM239	GenBank	gene	6407	6712	.	+	1	ID=vpr;Name=vpr;Name=vpr
+SIVMM239	GenBank	mRNA	6407	6712	.	+	1	ID=vpr.t01;Name=vpr.t01;Parent=vpr
+SIVMM239	GenBank	CDS	6407	6712	.	+	0	ID=vpr.p01;Name=vpr.p01;Parent=vpr.t01;Dbxref=GI:334654;Name=vpr;codon_start=1;product=vpR protein;protein_id=AAA47636.1;transl_table=1;translation=length.101
+SIVMM239	GenBank	exon	6407	6712	.	+	1	Parent=vpr.t01
+SIVMM239	GenBank	gene	6558	9158	.	+	1	ID=tat;Name=tat;Name=tat
+SIVMM239	GenBank	mRNA	6558	9158	.	+	1	ID=tat.t01;Name=tat.t01;Parent=tat
+SIVMM239	GenBank	CDS	6558	6853	.	+	0	ID=tat.p01;Name=tat.p01;Parent=tat.t01;Dbxref=GI:334648;Name=tat;codon_start=1;product=tat protein;protein_id=AAA47630.1;transl_table=1;translation=length.130
+SIVMM239	GenBank	exon	6558	6853	.	+	1	Parent=tat.t01;Name=tat;Note=tat protein%2C (first expressed exon);number=2
+SIVMM239	GenBank	gene	6784	9315	.	+	1	ID=rev.gene;Name=rev.gene;Alias=rev;Name=rev
+SIVMM239	GenBank	mRNA	6784	9315	.	+	1	ID=rev.t01;Name=rev.t01;Parent=rev
+SIVMM239	GenBank	mRNA	6784	9158	.	+	1	ID=rev.t02;Name=rev.t02;Parent=rev
+SIVMM239	GenBank	CDS	6784	6853	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:334649;Name=rev;codon_start=1;product=rev protein;protein_id=AAA47631.1;transl_table=1;translation=length.107
+SIVMM239	GenBank	CDS	9062	9315	.	+	0	ID=rev.p01;Name=rev.p01;Parent=rev.t01;Dbxref=GI:334649;Name=rev;codon_start=1;product=rev protein;protein_id=AAA47631.1;transl_table=1;translation=length.107
+SIVMM239	GenBank	CDS	9062	9158	.	+	0	ID=rev.p02;Name=rev.p02;Parent=rev.t02;Dbxref=GI:334648;Name=rev;codon_start=1;product=rev protein;protein_id=AAA47631.1;transl_table=1;translation=length.130
+SIVMM239	GenBank	exon	6784	6853	.	+	1	Parent=rev.t01;Name=rev;Note=rev protein%2C (first expressed exon);number=2
+SIVMM239	GenBank	exon	9062	9315	.	+	1	Parent=rev.t01;Name=rev;Note=rev protein;number=3
+SIVMM239	GenBank	exon	9062	9158	.	+	1	Parent=rev.t02;Name=rev;Name=rev;Note=tat protein;number=3
+SIVMM239	GenBank	gene	6860	9499	.	+	1	ID=env;Name=env;Name=env
+SIVMM239	GenBank	mRNA	6860	9499	.	+	1	ID=env.t01;Name=env.t01;Parent=env
+SIVMM239	GenBank	CDS	6860	9499	.	+	0	ID=env.p01;Name=env.p01;Parent=env.t01;Dbxref=GI:334655;Name=env;codon_start=1;product=env polyprotein;protein_id=AAA47637.1;transl_table=1;translation=length.879
+SIVMM239	GenBank	exon	6860	9499	.	+	1	Parent=env.t01
+SIVMM239	GenBank	LTR	9718	10535	.	+	1	ID=GenBank:LTR:SIVMM239:9718:10535;Name=GenBank:LTR:SIVMM239:9718:10535;Note=3'' LTR
+SIVMM239	GenBank	LTR	9718	10234	.	+	1	ID=GenBank:LTR:SIVMM239:9718:10234;Name=GenBank:LTR:SIVMM239:9718:10234;Note=U3
+SIVMM239	GenBank	repeat_region	10235	10411	.	+	1	ID=GenBank:repeat_region:SIVMM239:10235:10411;Name=GenBank:repeat_region:SIVMM239:10235:10411;Note=R
+SIVMM239	GenBank	polyA_signal	10388	10393	.	+	1	ID=GenBank:polyA_signal:SIVMM239:10388:10393;Name=GenBank:polyA_signal:SIVMM239:10388:10393;
+SIVMM239	GenBank	LTR	10412	10535	.	+	1	ID=GenBank:LTR:SIVMM239:10412:10535;Name=GenBank:LTR:SIVMM239:10412:10535;Note=U5
+SIVMM239	GenBank	gene	9333	10124	.	+	1	ID=nef;Name=nef;Name=nef
+SIVMM239	GenBank	gene_component_region	9701	9716	.	+	1	Parent=nef;Name=nef;Note=polypurine tract
+SIVMM239	GenBank	mRNA	9333	9611	.	+	1	ID=nef.t01;Name=nef.t01;Parent=nef
+SIVMM239	GenBank	mRNA	9333	10124	.	+	1	ID=nef.t02;Name=nef.t02;Parent=nef
+SIVMM239	GenBank	CDS	9333	9611	.	+	0	ID=nef.p01;Name=nef.p01;Parent=nef.t01;Dbxref=GI:334656;Name=nef;codon_start=1;product=nef protein (premature termination);protein_id=AAA47638.1;transl_table=1;translation=length.92
+SIVMM239	GenBank	CDS	9333	10124	.	+	0	ID=nef.p02;Name=nef.p02;Parent=nef.t02;Dbxref=GI:334656;Name=nef;codon_start=1;product=nef protein (premature termination);protein_id=AAA47638.1;transl_table=1;translation=length.92
+SIVMM239	GenBank	exon	9333	9611	.	+	1	Parent=nef.t01
+SIVMM239	GenBank	pseudogenic_exon	9333	10124	.	+	1	Parent=nef.t02;Name=nef;Note=nef protein (in-frame stop at 9612);codon_start=1;pseudo=_no_value;transl_table=1
+

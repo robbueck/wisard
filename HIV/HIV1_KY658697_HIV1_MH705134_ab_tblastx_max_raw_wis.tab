@@ -1,0 +1,4 @@
+"seqnames"	"start"	"end"	"strand"	"Hsp_num"	"Hsp_bit.score"	"Hsp_score"	"Hsp_evalue"	"Hsp_query.from"	"Hsp_query.to"	"Hsp_hit.from.1"	"Hsp_query.frame"	"Hsp_hit.frame"	"Hsp_identity"	"Hsp_positive"	"Hsp_gaps"	"Hsp_align.len"	"seq_len"	"query_len"	"query_id"	"raw_score"	"ID"	"filter_pass"	"query_ranges.seqnames"	"query_ranges.start"	"query_ranges.end"	"query_ranges.width"	"query_ranges.strand"	"score"	"query_len.1"
+"12"	"KY658697|KY658697"	6421	9849	"-"	12	895.311	2529	3.40976e-267	6224	9679	9849	-3	-3	599	661	39	1167	9875	9792	"MH705134|MH705134"	2529	20	TRUE	"MH705134|MH705134"	6224	9679	3456	"*"	2529	9792
+"1"	"KY658697|KY658697"	995	6292	"+"	1	2514.59	7129	0	788	6085	995	2	2	1389	1509	2	1767	9875	9792	"MH705134|MH705134"	7129	13	TRUE	"MH705134|MH705134"	788	6085	5298	"*"	7129	9792
+"4"	"KY658697|KY658697"	10	864	"+"	4	251.471	700	2.99e-68	8916	9782	10	3	1	156	186	8	291	9875	9792	"MH705134|MH705134"	700	3	TRUE	"MH705134|MH705134"	8916	9782	867	"*"	700	9792
