@@ -1,4 +1,0 @@
-"seqnames"	"start"	"end"	"strand"	"Hsp_num"	"Hsp_bit.score"	"Hsp_score"	"Hsp_evalue"	"Hsp_query.from"	"Hsp_query.to"	"Hsp_hit.from.1"	"Hsp_query.frame"	"Hsp_hit.frame"	"Hsp_identity"	"Hsp_positive"	"Hsp_gaps"	"Hsp_align.len"	"seq_len"	"query_len"	"query_id"	"raw_score"	"ID"	"filter_pass"	"query_ranges.seqnames"	"query_ranges.start"	"query_ranges.end"	"query_ranges.width"	"query_ranges.strand"	"score"	"query_len.1"
-"9"	"KY025538|KY025538"	9372	10352	"+"	9	243.727	678	8.30922e-66	9263	10240	9372	2	3	185	211	19	336	10354	10351	"U27200|HIV2U27200"	678	19	TRUE	"U27200|HIV2U27200"	9263	10240	978	"*"	336	10351
-"3"	"KY025538|KY025538"	6709	9294	"+"	3	1020.98	2886	4.91232e-305	6690	9233	6709	3	1	544	640	24	867	10354	10351	"U27200|HIV2U27200"	2886	15	TRUE	"U27200|HIV2U27200"	6690	9233	2544	"*"	867	10351
-"2"	"KY025538|KY025538"	1	6615	"+"	2	1557.1	4409	0	1	6600	1	1	1	1080	1327	37	2221	10354	10351	"U27200|HIV2U27200"	4409	8	TRUE	"U27200|HIV2U27200"	1	6600	6600	"*"	2221	10351

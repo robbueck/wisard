@@ -1,5 +1,0 @@
-"seqnames"	"start"	"end"	"strand"	"Hsp_num"	"Hsp_bit.score"	"Hsp_score"	"Hsp_evalue"	"Hsp_query.from"	"Hsp_query.to"	"Hsp_hit.from.1"	"Hsp_query.frame"	"Hsp_hit.frame"	"Hsp_identity"	"Hsp_positive"	"Hsp_gaps"	"Hsp_align.len"	"seq_len"	"query_len"	"query_id"	"raw_score"	"ID"	"filter_pass"	"query_ranges.seqnames"	"query_ranges.start"	"query_ranges.end"	"query_ranges.width"	"query_ranges.strand"	"score"	"query_len.1"
-"15"	"MK458169|MK458169"	10079	10279	"-"	15	43.0768	108	3.01346e-05	358	552	10279	-1	-2	32	38	6	69	10286	9927	"JQ866001|JQ866001"	108	13	TRUE	"JQ866001|JQ866001"	358	552	195	"*"	108	9927
-"4"	"MK458169|MK458169"	9729	10061	"+"	4	134.601	368	7.50451e-33	9274	9591	9729	1	3	67	82	5	111	10286	9927	"JQ866001|JQ866001"	368	9	TRUE	"JQ866001|JQ866001"	9274	9591	318	"*"	368	9927
-"1"	"MK458169|MK458169"	531	2534	"+"	1	559.487	1575	1.3957e-161	1248	3272	531	3	3	341	419	9	676	10286	9927	"JQ866001|JQ866001"	1575	6	TRUE	"JQ866001|JQ866001"	1248	3272	2025	"*"	1575	9927
-"12"	"MK458169|MK458169"	3	425	"-"	12	98.6956	266	4.94157e-22	651	1076	425	-2	-1	71	82	7	145	10286	9927	"JQ866001|JQ866001"	266	1	TRUE	"JQ866001|JQ866001"	651	1076	426	"*"	266	9927

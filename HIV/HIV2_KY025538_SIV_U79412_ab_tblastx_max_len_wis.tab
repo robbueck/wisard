@@ -1,6 +1,0 @@
-"seqnames"	"start"	"end"	"strand"	"Hsp_num"	"Hsp_bit.score"	"Hsp_score"	"Hsp_evalue"	"Hsp_query.from"	"Hsp_query.to"	"Hsp_hit.from.1"	"Hsp_query.frame"	"Hsp_hit.frame"	"Hsp_identity"	"Hsp_positive"	"Hsp_gaps"	"Hsp_align.len"	"seq_len"	"query_len"	"query_id"	"raw_score"	"ID"	"filter_pass"	"query_ranges.seqnames"	"query_ranges.start"	"query_ranges.end"	"query_ranges.width"	"query_ranges.strand"	"score"	"query_len.1"
-"2"	"KY025538|KY025538"	6706	10260	"+"	2	1160.73	3283	0	6090	9662	6706	3	1	676	801	52	1214	10354	9664	"U79412|SIU79412"	3283	20	TRUE	"U79412|SIU79412"	6090	9662	3573	"*"	1214	9664
-"10"	"KY025538|KY025538"	6243	6686	"+"	10	130.377	356	1.38609e-31	5625	6071	6243	3	3	79	89	1	149	10354	9664	"U79412|SIU79412"	356	16	TRUE	"U79412|SIU79412"	5625	6071	447	"*"	149	9664
-"17"	"KY025538|KY025538"	2612	6175	"-"	17	1019.57	2882	1.36304e-304	2008	5568	6175	-2	-1	632	736	1	1188	10354	9664	"U79412|SIU79412"	2882	13	TRUE	"U79412|SIU79412"	2008	5568	3561	"*"	1188	9664
-"19"	"KY025538|KY025538"	1067	2578	"-"	19	560.895	1579	4.14247e-162	517	2025	2578	-2	-1	330	347	7	507	10354	9664	"U79412|SIU79412"	1579	8	TRUE	"U79412|SIU79412"	517	2025	1509	"*"	507	9664
-"15"	"KY025538|KY025538"	2	751	"+"	15	66.662	175	2.50267e-12	8940	9662	2	3	2	83	107	27	259	10354	9664	"U79412|SIU79412"	175	2	TRUE	"U79412|SIU79412"	8940	9662	723	"*"	259	9664

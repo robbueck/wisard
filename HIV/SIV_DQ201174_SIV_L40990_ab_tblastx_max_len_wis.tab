@@ -1,6 +1,0 @@
-"seqnames"	"start"	"end"	"strand"	"Hsp_num"	"Hsp_bit.score"	"Hsp_score"	"Hsp_evalue"	"Hsp_query.from"	"Hsp_query.to"	"Hsp_hit.from.1"	"Hsp_query.frame"	"Hsp_hit.frame"	"Hsp_identity"	"Hsp_positive"	"Hsp_gaps"	"Hsp_align.len"	"seq_len"	"query_len"	"query_id"	"raw_score"	"ID"	"filter_pass"	"query_ranges.seqnames"	"query_ranges.start"	"query_ranges.end"	"query_ranges.width"	"query_ranges.strand"	"score"	"query_len.1"
-"17"	"DQ201174|DQ201174"	9095	10117	"-"	17	72.6463	192	3.53663e-14	8743	9687	10117	-3	-1	101	129	38	347	10315	9815	"L40990|SIVREV"	192	19	TRUE	"L40990|SIVREV"	8743	9687	945	"*"	347	9815
-"14"	"DQ201174|DQ201174"	6430	8838	"-"	14	297.938	832	2.4904e-82	6108	8525	8838	-1	-2	300	360	33	821	10315	9815	"L40990|SIVREV"	832	12	TRUE	"L40990|SIVREV"	6108	8525	2418	"*"	821	9815
-"9"	"DQ201174|DQ201174"	6164	6385	"+"	9	59.9736	156	2.6239e-10	5776	6015	6164	1	2	35	48	6	80	10315	9815	"L40990|SIVREV"	156	10	TRUE	"L40990|SIVREV"	5776	6015	240	"*"	80	9815
-"1"	"DQ201174|DQ201174"	821	5833	"+"	1	1285.7	3638	0	710	5773	821	2	2	808	1049	47	1703	10315	9815	"L40990|SIVREV"	3638	7	TRUE	"L40990|SIVREV"	710	5773	5064	"*"	1703	9815
-"15"	"DQ201174|DQ201174"	2	634	"-"	15	76.5185	203	2.54787e-15	2	595	634	-2	-1	78	96	21	215	10315	9815	"L40990|SIVREV"	203	4	TRUE	"L40990|SIVREV"	2	595	594	"*"	215	9815
